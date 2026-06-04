@@ -1,0 +1,109 @@
+// src/data/esmaltes.ts
+import { Esmalte } from "./tipos";
+
+export const ESMALTES_DATA: Esmalte[] = [
+  {
+    id: 1,
+    name: "Angel Pink",
+    price: 14990,
+    discountPrice: 9990,
+    image: "/angel_pink.webp",
+    description: "Un rosa tierno y angelical de alta costura, ideal para manicuras elegantes.",
+    category: "esmaltes",
+    line: "Basica",
+    colorFamily: "Rosados",
+    finish: "Sin Glitter",
+    size: "15ml",
+
+    details: {
+      Línea: "Básica",
+      Color: "Rosados",
+      Acabado: "Sin Glitter",
+      Tamaño: "15ml",
+    },
+  },
+
+  {
+    id: 2,
+    name: "Uva Antique",
+    price: 13990,
+    image: "/uva_antique.webp",
+    description: "Tono morado vintage profundo con excelente cobertura y larga duración.",
+    category: "esmaltes",
+    line: "Premium",
+    colorFamily: "Rosados",
+    finish: "Sin Glitter",
+    size: "15ml",
+
+    details: {
+      Línea: "Premium",
+      Color: "Rosados",
+      Acabado: "Sin Glitter",
+      Tamaño: "15ml",
+    },
+  },
+
+  {
+    id: 3,
+    name: "Merlot Luxury",
+    price: 15990,
+    image: "/merlot.webp",
+    description: "Edición exclusiva de lujo en un rojo vino intenso y seductor.",
+    category: "esmaltes",
+    line: "Premium",
+    colorFamily: "Rojos y Vinos",
+    finish: "Sin Glitter",
+    size: "30ml",
+
+    details: {
+      Línea: "Premium",
+      Color: "Rojos y Vinos",
+      Acabado: "Sin Glitter",
+      Tamaño: "30ml",
+    },
+  },
+
+
+  {
+    id: 4,
+    name: "Ruby Glam",
+    price: 15990,
+    discountPrice: 9990,
+    image: "/Ruby_Glam.webp",
+    description: "Un rojo suave con reflejos luminosos, inspirado en la delicadeza del ruby.",
+    category: "esmaltes",
+    line: "Premium",
+    colorFamily: "Rojos y Vinos",
+    finish: "Con Glitter",
+    size: "15ml",
+
+    details: {
+      Línea: "Premium",
+      Color: "Rojos y Vinos",
+      Acabado: "Con Glitter",
+      Tamaño: "15ml",
+    },
+  },
+  {
+    id: 5,
+    name: "Vintage Nude",
+    price: 15990,
+    image: "/Vintage_Nude.webp",
+    description: "Un nude atemporal con un aire retro y sofisticado. Elegancia clásica en cada aplicación.",
+    category: "esmaltes",
+    line: "Basica",
+    colorFamily: "Nudes y Neutros",
+    finish: "Sin Glitter",
+    size: "30ml",
+
+    details: {
+      Línea: "Básica",
+      Color: "Nudes y Neutros",
+      Acabado: "Sin Glitter",
+      Tamaño: "30ml",
+    },
+  },
+
+
+
+];
